@@ -43,10 +43,13 @@ header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
+    border-radius: 3px;
+    padding: 3px;
 }
 
 header a:hover, footer a:hover {
-    text-decoration: underline;
+    background-color: white;
+    color: black;
 }
 
 section {
